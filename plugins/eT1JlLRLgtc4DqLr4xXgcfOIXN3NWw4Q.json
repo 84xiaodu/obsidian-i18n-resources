@@ -1,0 +1,1964 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "auto-heading",
+        "version": "1.0.0",
+        "title": "Auto Heading",
+        "description": "Auto Heading Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.11",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "📄 Document Overview",
+                    "target": "📄 Document Overview"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Previous heading",
+                    "target": "Previous heading"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Next heading",
+                    "target": "Next heading"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Toggle Table of Contents",
+                    "target": "Toggle Table of Contents"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Auto-number (writes to file)",
+                    "target": "Auto-number (writes to file)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "decoration",
+                    "target": "decoration"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Visual only (files stay clean)",
+                    "target": "Visual only (files stay clean)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "off",
+                    "target": "off"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Off",
+                    "target": "Off"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "scroll",
+                    "target": "scroll"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Scroll Position",
+                    "target": "Scroll Position"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "cursor",
+                    "target": "cursor"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Text Cursor",
+                    "target": "Text Cursor"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "cut",
+                    "target": "cut"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Cut (move to new note)",
+                    "target": "Cut (move to new note)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "copy",
+                    "target": "copy"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Copy (duplicate to new note)",
+                    "target": "Copy (duplicate to new note)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "embed",
+                    "target": "embed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Embed (![[Link]])",
+                    "target": "Embed (![[Link]])"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "link",
+                    "target": "link"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Link ([[Link]])",
+                    "target": "Link ([[Link]])"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "none",
+                    "target": "none"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nothing",
+                    "target": "Nothing"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "same",
+                    "target": "same"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Same folder as current note",
+                    "target": "Same folder as current note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ask",
+                    "target": "ask"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ask every time",
+                    "target": "Ask every time"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " writes numbers into your file. Numbers appear in TOC, PDF, Publish.",
+                    "target": " writes numbers into your file. Numbers appear in TOC, PDF, Publish."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Numbers auto-update after edits (configurable delay). ",
+                    "target": "Numbers auto-update after edits (configurable delay). "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Auto Heading: Loaded",
+                    "target": "Auto Heading: Loaded"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Extract",
+                    "target": "Extract"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Write Numbers to File",
+                    "target": "Write Numbers to File"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Remove & Stop",
+                    "target": "Remove & Stop"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Toggle TOC",
+                    "target": "Toggle TOC"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Open Hotkeys",
+                    "target": "Open Hotkeys"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Wait time after editing before numbers update.",
+                    "target": "Wait time after editing before numbers update."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Also show decoration numbers while typing (for instant feedback).",
+                    "target": "Also show decoration numbers while typing (for instant feedback)."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How heading numbers are applied.",
+                    "target": "How heading numbers are applied."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number every note automatically.",
+                    "target": "Number every note automatically."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Notes containing auto-heading: auto",
+                    "target": "Notes containing auto-heading: auto"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only notes in the list below.",
+                    "target": "Only notes in the list below."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Do not number # headings (use when H1 is the note title).",
+                    "target": "Do not number # headings (use when H1 is the note title)."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Start numbering from this level.",
+                    "target": "Start numbering from this level."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Stop numbering at this level.",
+                    "target": "Stop numbering at this level."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Starting value. 1 for Arabic, A for letters, I for Roman.",
+                    "target": "Starting value. 1 for Arabic, A for letters, I for Roman."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "${\"#\".repeat(d)} numbering style.",
+                    "target": "${\"#\".repeat(d)} numbering style."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Character between number and heading text. Default: dot (.)",
+                    "target": "Character between number and heading text. Default: dot (.)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Between level numbers (the \".\" in 1.2.3).",
+                    "target": "Between level numbers (the \".\" in 1.2.3)."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Template: {n} = number. E.g. \"{n}\", \"§{n}\", \"Ch.{n}:\"",
+                    "target": "Template: {n} = number. E.g. \"{n}\", \"§{n}\", \"Ch.{n}:\""
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Opacity for visual-only numbers.",
+                    "target": "Opacity for visual-only numbers."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Pixels of indentation per heading level.",
+                    "target": "Pixels of indentation per heading level."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Draw subtle vertical lines alongside indented headings.",
+                    "target": "Draw subtle vertical lines alongside indented headings."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Indent heading lines based on their level to create a visual tree.",
+                    "target": "Indent heading lines based on their level to create a visual tree."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display H1, H2, H3 etc. in the gutter.",
+                    "target": "Display H1, H2, H3 etc. in the gutter."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Tooltip with section word count and reading time.",
+                    "target": "Tooltip with section word count and reading time."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Heading hierarchy trail (e.g. Methods / Analysis).",
+                    "target": "Heading hierarchy trail (e.g. Methods / Analysis)."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Track the cursor position or the scroll position.",
+                    "target": "Track the cursor position or the scroll position."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Previous/next heading buttons.",
+                    "target": "Previous/next heading buttons."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle Table of Contents button.",
+                    "target": "Toggle Table of Contents button."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change heading level with a click.",
+                    "target": "Change heading level with a click."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Copy [[Note#Section]] link to clipboard.",
+                    "target": "Copy [[Note#Section]] link to clipboard."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Convert heading text to Title Case.",
+                    "target": "Convert heading text to Title Case."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add/remove skip marker on heading.",
+                    "target": "Add/remove skip marker on heading."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Extract a heading section to a new note.",
+                    "target": "Extract a heading section to a new note."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Copy ![[Note#Section]] embed link — content renders inline and stays in sync.",
+                    "target": "Copy ![[Note#Section]] embed link — content renders inline and stays in sync."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Cut removes the section from the original note. Copy leaves it in place.",
+                    "target": "Cut removes the section from the original note. Copy leaves it in place."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When cutting, what to leave in the original note in place of the extracted section.",
+                    "target": "When cutting, what to leave in the original note in place of the extracted section."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Where to save extracted notes.",
+                    "target": "Where to save extracted notes."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Adds Fold/Unfold All commands to the command palette.",
+                    "target": "Adds Fold/Unfold All commands to the command palette."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Write computed numbers into headings right now. Appears in TOC and exports.",
+                    "target": "Write computed numbers into headings right now. Appears in TOC and exports."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Strip all numbers from headings and pause auto-numbering for this note.",
+                    "target": "Strip all numbers from headings and pause auto-numbering for this note."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle a ```toc block at the top of the current note.",
+                    "target": "Toggle a ```toc block at the top of the current note."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Replace manually-typed numbers like \"1. Intro\" with computed values.",
+                    "target": "Replace manually-typed numbers like \"1. Intro\" with computed values."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "HTML comment keyword to skip a heading. Right-click heading → \"Skip numbering\".",
+                    "target": "HTML comment keyword to skip a heading. Right-click heading → \"Skip numbering\"."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display heading count, word count, and reading time at the bottom of the window. Click to see a full document outline.",
+                    "target": "Display heading count, word count, and reading time at the bottom of the window. Click to see a full document outline."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Opens Obsidian's hotkey settings pre-filtered to Auto Heading commands.",
+                    "target": "Opens Obsidian's hotkey settings pre-filtered to Auto Heading commands."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "First → Max",
+                    "target": "First → Max"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Indent heading lines by level",
+                    "target": "Indent heading lines by level"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note name",
+                    "target": "Note name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save in folder",
+                    "target": "Save in folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-number delay",
+                    "target": "Auto-number delay"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show live preview",
+                    "target": "Show live preview"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Numbering mode",
+                    "target": "Numbering mode"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "All notes in vault",
+                    "target": "All notes in vault"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notes with front matter",
+                    "target": "Notes with front matter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Selected folders / notes",
+                    "target": "Selected folders / notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Skip H1 headings",
+                    "target": "Skip H1 headings"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "First heading level",
+                    "target": "First heading level"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maximum heading level",
+                    "target": "Maximum heading level"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Start numbering at",
+                    "target": "Start numbering at"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "H${d} style",
+                    "target": "H${d} style"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Separator",
+                    "target": "Separator"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Level separator",
+                    "target": "Level separator"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Number format",
+                    "target": "Number format"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Number opacity (decoration)",
+                    "target": "Number opacity (decoration)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Indent size",
+                    "target": "Indent size"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show indent guides",
+                    "target": "Show indent guides"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Visual heading indentation",
+                    "target": "Visual heading indentation"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable heading gutter",
+                    "target": "Enable heading gutter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show level badges",
+                    "target": "Show level badges"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show word count on hover",
+                    "target": "Show word count on hover"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable breadcrumb bar",
+                    "target": "Enable breadcrumb bar"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show heading trail",
+                    "target": "Show heading trail"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Breadcrumb update mode",
+                    "target": "Breadcrumb update mode"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show navigation arrows",
+                    "target": "Show navigation arrows"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show TOC button",
+                    "target": "Show TOC button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable heading toolbar",
+                    "target": "Enable heading toolbar"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show promote/demote buttons",
+                    "target": "Show promote/demote buttons"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show copy link button",
+                    "target": "Show copy link button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show format button",
+                    "target": "Show format button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show skip toggle",
+                    "target": "Show skip toggle"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show extract button",
+                    "target": "Show extract button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show copy embed button",
+                    "target": "Show copy embed button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Extraction mode",
+                    "target": "Extraction mode"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Replace with",
+                    "target": "Replace with"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New note location",
+                    "target": "New note location"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable commands",
+                    "target": "Enable commands"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Apply heading numbers",
+                    "target": "Apply heading numbers"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Remove heading numbers",
+                    "target": "Remove heading numbers"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Insert / Remove Table of Contents",
+                    "target": "Insert / Remove Table of Contents"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Detect existing numbers",
+                    "target": "Detect existing numbers"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Skip marker",
+                    "target": "Skip marker"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show document stats in status bar",
+                    "target": "Show document stats in status bar"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Manage hotkeys",
+                    "target": "Manage hotkeys"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enabled",
+                    "target": "Enabled"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Skip H1",
+                    "target": "Skip H1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Level range",
+                    "target": "Level range"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Start at",
+                    "target": "Start at"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Opacity",
+                    "target": "Opacity"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Visual indentation",
+                    "target": "Visual indentation"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type to search folders...",
+                    "target": "Type to search folders..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type to search notes...",
+                    "target": "Type to search notes..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "skip",
+                    "target": "skip"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Auto Heading — Quick Configure",
+                    "target": "Auto Heading — Quick Configure"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Extract Section to New Note",
+                    "target": "Extract Section to New Note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Renumber headings in this note",
+                    "target": "Renumber headings in this note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy link to this section",
+                    "target": "Copy link to this section"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active note.",
+                    "target": "No active note."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No heading found at or above cursor.",
+                    "target": "No heading found at or above cursor."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create note: ${k}",
+                    "target": "Failed to create note: ${k}"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Extracted to ${m}",
+                    "target": "Extracted to ${m}"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Already in list.",
+                    "target": "Already in list."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Open a note first.",
+                    "target": "Open a note first."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No headings found.",
+                    "target": "No headings found."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: ${o.message}",
+                    "target": "Auto Heading: ${o.message}"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: ${o.message}\nAuto-numbering disabled for this note.",
+                    "target": "Auto Heading: ${o.message}\nAuto-numbering disabled for this note."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: TOC block removed.",
+                    "target": "Auto Heading: TOC block removed."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: TOC block inserted.",
+                    "target": "Auto Heading: TOC block inserted."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: Enabled for this note",
+                    "target": "Auto Heading: Enabled for this note"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: Disabled for this note",
+                    "target": "Auto Heading: Disabled for this note"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: ${s.message}",
+                    "target": "Auto Heading: ${s.message}"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: ${o.message}\nNumbering disabled for this note. Use \"Enable numbering\" to re-enable.",
+                    "target": "Auto Heading: ${o.message}\nNumbering disabled for this note. Use \"Enable numbering\" to re-enable."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: Heading will be numbered",
+                    "target": "Auto Heading: Heading will be numbered"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: Heading will be skipped",
+                    "target": "Auto Heading: Heading will be skipped"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: Settings saved to front matter",
+                    "target": "Auto Heading: Settings saved to front matter"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: Copied ${r.totalCount} headings",
+                    "target": "Auto Heading: Copied ${r.totalCount} headings"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: Headings renumbered for this note",
+                    "target": "Auto Heading: Headings renumbered for this note"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: All headings folded",
+                    "target": "Auto Heading: All headings folded"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: All headings unfolded",
+                    "target": "Auto Heading: All headings unfolded"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: TOC removed.",
+                    "target": "Auto Heading: TOC removed."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Heading: TOC inserted.",
+                    "target": "Auto Heading: TOC inserted."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-extract-error ah-extract-error-text ah-extract-hidden",
+                    "target": "ah-extract-error ah-extract-error-text ah-extract-hidden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-toc-item ah-toc-level-${S.level}",
+                    "target": "ah-toc-item ah-toc-level-${S.level}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "# Title",
+                    "target": "# Title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "## Section",
+                    "target": "## Section"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "### Subsection",
+                    "target": "### Subsection"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "#### Detail",
+                    "target": "#### Detail"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No headings found.",
+                    "target": "No headings found."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No headings found in the document.",
+                    "target": "No headings found in the document."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle heading numbers (current note)",
+                    "target": "Toggle heading numbers (current note)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable numbering for this note",
+                    "target": "Enable numbering for this note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disable numbering for this note",
+                    "target": "Disable numbering for this note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quick configure numbering",
+                    "target": "Quick configure numbering"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Burn in heading numbers (current note)",
+                    "target": "Burn in heading numbers (current note)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Remove burned-in heading numbers (current note)",
+                    "target": "Remove burned-in heading numbers (current note)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle skip for heading at cursor",
+                    "target": "Toggle skip for heading at cursor"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Save settings to front matter (current note)",
+                    "target": "Save settings to front matter (current note)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy headings as numbered outline",
+                    "target": "Copy headings as numbered outline"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Force renumber all headings (current note)",
+                    "target": "Force renumber all headings (current note)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Navigate: next heading",
+                    "target": "Navigate: next heading"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Navigate: previous heading",
+                    "target": "Navigate: previous heading"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Navigate: go to heading…",
+                    "target": "Navigate: go to heading…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy link to current section",
+                    "target": "Copy link to current section"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fold all headings",
+                    "target": "Fold all headings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Unfold all headings",
+                    "target": "Unfold all headings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Promote heading (e.g. H3 → H2)",
+                    "target": "Promote heading (e.g. H3 → H2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Demote heading (e.g. H2 → H3)",
+                    "target": "Demote heading (e.g. H2 → H3)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract current section to new note",
+                    "target": "Extract current section to new note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Format heading: Title Case",
+                    "target": "Format heading: Title Case"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Format heading: Sentence case",
+                    "target": "Format heading: Sentence case"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Outline panel",
+                    "target": "Toggle Outline panel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert / Remove TOC block",
+                    "target": "Insert / Remove TOC block"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fold all sections (view action)",
+                    "target": "Fold all sections (view action)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Unfold all sections (view action)",
+                    "target": "Unfold all sections (view action)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Undo:",
+                    "target": "Undo:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enable one or more. A note is numbered if ANY enabled condition matches.",
+                    "target": "Enable one or more. A note is numbered if ANY enabled condition matches."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Shows heading level badges (H1, H2, etc.) in the editor gutter.",
+                    "target": "Shows heading level badges (H1, H2, etc.) in the editor gutter."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "A navigation bar at the top of the editor showing the current heading hierarchy.",
+                    "target": "A navigation bar at the top of the editor showing the current heading hierarchy."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Action buttons that appear when cursor is on a heading line.",
+                    "target": "Action buttons that appear when cursor is on a heading line."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Extract a heading and its content to a separate note.",
+                    "target": "Extract a heading and its content to a separate note."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "These buttons apply to the currently open note only. Use Ctrl+Z to undo.",
+                    "target": "These buttons apply to the currently open note only. Use Ctrl+Z to undo."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Access these via Ctrl+P (Command Palette) or assign hotkeys above.",
+                    "target": "Access these via Ctrl+P (Command Palette) or assign hotkeys above."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Override global settings for individual notes using front matter or comments.",
+                    "target": "Override global settings for individual notes using front matter or comments."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No folders or notes selected yet.",
+                    "target": "No folders or notes selected yet."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "+ Add Folder",
+                    "target": "+ Add Folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "+ Add Note",
+                    "target": "+ Add Note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Clear All",
+                    "target": "Clear All"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Adjust numbering settings for all documents. Per-note overrides via front matter take priority.",
+                    "target": "Adjust numbering settings for all documents. Per-note overrides via front matter take priority."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Style per level",
+                    "target": "Style per level"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Done",
+                    "target": "Done"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "${S}w ${C}min",
+                    "target": "${S}w ${C}min"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No headings found.",
+                    "target": "No headings found."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No headings in selected range.",
+                    "target": "No headings in selected range."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " / ",
+                    "target": " / "
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"No active note.\")",
+                    "target": "Notice(\"No active note.\")"
+                },
+                {
+                    "source": "Notice(\"No heading found at or above cursor.\")",
+                    "target": "Notice(\"No heading found at or above cursor.\")"
+                },
+                {
+                    "source": "Notice(`Failed to create note: ${k}`)",
+                    "target": "Notice(`Failed to create note: ${k}`)"
+                },
+                {
+                    "source": "Notice(`Extracted to ${m}`)",
+                    "target": "Notice(`Extracted to ${m}`)"
+                },
+                {
+                    "source": "setTitle(\"Extract Section to New Note\")",
+                    "target": "setTitle(\"Extract Section to New Note\")"
+                },
+                {
+                    "source": "setName(\"Note name\")",
+                    "target": "setName(\"Note name\")"
+                },
+                {
+                    "source": "setName(\"Save in folder\")",
+                    "target": "setName(\"Save in folder\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Type to search folders...\")",
+                    "target": "setPlaceholder(\"Type to search folders...\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Type to search notes...\")",
+                    "target": "setPlaceholder(\"Type to search notes...\")"
+                },
+                {
+                    "source": "appendText(\" writes numbers into your file. Numbers appear in TOC, PDF, Publish.\")",
+                    "target": "appendText(\" writes numbers into your file. Numbers appear in TOC, PDF, Publish.\")"
+                },
+                {
+                    "source": "appendText(\"Numbers auto-update after edits (configurable delay). \")",
+                    "target": "appendText(\"Numbers auto-update after edits (configurable delay). \")"
+                },
+                {
+                    "source": "appendText(\" \")",
+                    "target": "appendText(\" \")"
+                },
+                {
+                    "source": "setName(\"Auto-number delay\")",
+                    "target": "setName(\"Auto-number delay\")"
+                },
+                {
+                    "source": "setDesc(\"Wait time after editing before numbers update.\")",
+                    "target": "setDesc(\"Wait time after editing before numbers update.\")"
+                },
+                {
+                    "source": "setName(\"Show live preview\")",
+                    "target": "setName(\"Show live preview\")"
+                },
+                {
+                    "source": "setDesc(\"Also show decoration numbers while typing (for instant feedback).\")",
+                    "target": "setDesc(\"Also show decoration numbers while typing (for instant feedback).\")"
+                },
+                {
+                    "source": "setName(\"Numbering mode\")",
+                    "target": "setName(\"Numbering mode\")"
+                },
+                {
+                    "source": "setDesc(\"How heading numbers are applied.\")",
+                    "target": "setDesc(\"How heading numbers are applied.\")"
+                },
+                {
+                    "source": "setName(\"All notes in vault\")",
+                    "target": "setName(\"All notes in vault\")"
+                },
+                {
+                    "source": "setDesc(\"Number every note automatically.\")",
+                    "target": "setDesc(\"Number every note automatically.\")"
+                },
+                {
+                    "source": "setName(\"Notes with front matter\")",
+                    "target": "setName(\"Notes with front matter\")"
+                },
+                {
+                    "source": "setDesc(\"Notes containing auto-heading: auto\")",
+                    "target": "setDesc(\"Notes containing auto-heading: auto\")"
+                },
+                {
+                    "source": "setName(\"Selected folders / notes\")",
+                    "target": "setName(\"Selected folders / notes\")"
+                },
+                {
+                    "source": "setDesc(\"Only notes in the list below.\")",
+                    "target": "setDesc(\"Only notes in the list below.\")"
+                },
+                {
+                    "source": "setName(\"Skip H1 headings\")",
+                    "target": "setName(\"Skip H1 headings\")"
+                },
+                {
+                    "source": "setDesc(\"Do not number # headings (use when H1 is the note title).\")",
+                    "target": "setDesc(\"Do not number # headings (use when H1 is the note title).\")"
+                },
+                {
+                    "source": "setName(\"First heading level\")",
+                    "target": "setName(\"First heading level\")"
+                },
+                {
+                    "source": "setDesc(\"Start numbering from this level.\")",
+                    "target": "setDesc(\"Start numbering from this level.\")"
+                },
+                {
+                    "source": "setName(\"Maximum heading level\")",
+                    "target": "setName(\"Maximum heading level\")"
+                },
+                {
+                    "source": "setDesc(\"Stop numbering at this level.\")",
+                    "target": "setDesc(\"Stop numbering at this level.\")"
+                },
+                {
+                    "source": "setName(\"Start numbering at\")",
+                    "target": "setName(\"Start numbering at\")"
+                },
+                {
+                    "source": "setDesc(\"Starting value. 1 for Arabic, A for letters, I for Roman.\")",
+                    "target": "setDesc(\"Starting value. 1 for Arabic, A for letters, I for Roman.\")"
+                },
+                {
+                    "source": "setName(`H${d} style`)",
+                    "target": "setName(`H${d} style`)"
+                },
+                {
+                    "source": "setDesc(`${\"#\".repeat(d)} numbering style.`)",
+                    "target": "setDesc(`${\"#\".repeat(d)} numbering style.`)"
+                },
+                {
+                    "source": "setDesc(\"Character between number and heading text. Default: dot (.)\")",
+                    "target": "setDesc(\"Character between number and heading text. Default: dot (.)\")"
+                },
+                {
+                    "source": "setName(\"Level separator\")",
+                    "target": "setName(\"Level separator\")"
+                },
+                {
+                    "source": "setName(\"Number format\")",
+                    "target": "setName(\"Number format\")"
+                },
+                {
+                    "source": "setName(\"Number opacity (decoration)\")",
+                    "target": "setName(\"Number opacity (decoration)\")"
+                },
+                {
+                    "source": "setDesc(\"Opacity for visual-only numbers.\")",
+                    "target": "setDesc(\"Opacity for visual-only numbers.\")"
+                },
+                {
+                    "source": "setName(\"Indent size\")",
+                    "target": "setName(\"Indent size\")"
+                },
+                {
+                    "source": "setDesc(\"Pixels of indentation per heading level.\")",
+                    "target": "setDesc(\"Pixels of indentation per heading level.\")"
+                },
+                {
+                    "source": "setName(\"Show indent guides\")",
+                    "target": "setName(\"Show indent guides\")"
+                },
+                {
+                    "source": "setDesc(\"Draw subtle vertical lines alongside indented headings.\")",
+                    "target": "setDesc(\"Draw subtle vertical lines alongside indented headings.\")"
+                },
+                {
+                    "source": "setName(\"Visual heading indentation\")",
+                    "target": "setName(\"Visual heading indentation\")"
+                },
+                {
+                    "source": "setDesc(\"Indent heading lines based on their level to create a visual tree.\")",
+                    "target": "setDesc(\"Indent heading lines based on their level to create a visual tree.\")"
+                },
+                {
+                    "source": "setName(\"Enable heading gutter\")",
+                    "target": "setName(\"Enable heading gutter\")"
+                },
+                {
+                    "source": "setName(\"Show level badges\")",
+                    "target": "setName(\"Show level badges\")"
+                },
+                {
+                    "source": "setName(\"Show word count on hover\")",
+                    "target": "setName(\"Show word count on hover\")"
+                },
+                {
+                    "source": "setDesc(\"Tooltip with section word count and reading time.\")",
+                    "target": "setDesc(\"Tooltip with section word count and reading time.\")"
+                },
+                {
+                    "source": "setName(\"Enable breadcrumb bar\")",
+                    "target": "setName(\"Enable breadcrumb bar\")"
+                },
+                {
+                    "source": "setName(\"Show heading trail\")",
+                    "target": "setName(\"Show heading trail\")"
+                },
+                {
+                    "source": "setDesc(\"Heading hierarchy trail (e.g. Methods / Analysis).\")",
+                    "target": "setDesc(\"Heading hierarchy trail (e.g. Methods / Analysis).\")"
+                },
+                {
+                    "source": "setName(\"Breadcrumb update mode\")",
+                    "target": "setName(\"Breadcrumb update mode\")"
+                },
+                {
+                    "source": "setDesc(\"Track the cursor position or the scroll position.\")",
+                    "target": "setDesc(\"Track the cursor position or the scroll position.\")"
+                },
+                {
+                    "source": "setName(\"Show navigation arrows\")",
+                    "target": "setName(\"Show navigation arrows\")"
+                },
+                {
+                    "source": "setDesc(\"Previous/next heading buttons.\")",
+                    "target": "setDesc(\"Previous/next heading buttons.\")"
+                },
+                {
+                    "source": "setName(\"Show TOC button\")",
+                    "target": "setName(\"Show TOC button\")"
+                },
+                {
+                    "source": "setDesc(\"Toggle Table of Contents button.\")",
+                    "target": "setDesc(\"Toggle Table of Contents button.\")"
+                },
+                {
+                    "source": "setName(\"Enable heading toolbar\")",
+                    "target": "setName(\"Enable heading toolbar\")"
+                },
+                {
+                    "source": "setName(\"Show promote/demote buttons\")",
+                    "target": "setName(\"Show promote/demote buttons\")"
+                },
+                {
+                    "source": "setDesc(\"Change heading level with a click.\")",
+                    "target": "setDesc(\"Change heading level with a click.\")"
+                },
+                {
+                    "source": "setName(\"Show copy link button\")",
+                    "target": "setName(\"Show copy link button\")"
+                },
+                {
+                    "source": "setDesc(\"Copy [[Note#Section]] link to clipboard.\")",
+                    "target": "setDesc(\"Copy [[Note#Section]] link to clipboard.\")"
+                },
+                {
+                    "source": "setName(\"Show format button\")",
+                    "target": "setName(\"Show format button\")"
+                },
+                {
+                    "source": "setDesc(\"Convert heading text to Title Case.\")",
+                    "target": "setDesc(\"Convert heading text to Title Case.\")"
+                },
+                {
+                    "source": "setName(\"Show skip toggle\")",
+                    "target": "setName(\"Show skip toggle\")"
+                },
+                {
+                    "source": "setDesc(\"Add/remove skip marker on heading.\")",
+                    "target": "setDesc(\"Add/remove skip marker on heading.\")"
+                },
+                {
+                    "source": "setName(\"Show extract button\")",
+                    "target": "setName(\"Show extract button\")"
+                },
+                {
+                    "source": "setDesc(\"Extract a heading section to a new note.\")",
+                    "target": "setDesc(\"Extract a heading section to a new note.\")"
+                },
+                {
+                    "source": "setName(\"Show copy embed button\")",
+                    "target": "setName(\"Show copy embed button\")"
+                },
+                {
+                    "source": "setName(\"Extraction mode\")",
+                    "target": "setName(\"Extraction mode\")"
+                },
+                {
+                    "source": "setDesc(\"Cut removes the section from the original note. Copy leaves it in place.\")",
+                    "target": "setDesc(\"Cut removes the section from the original note. Copy leaves it in place.\")"
+                },
+                {
+                    "source": "setName(\"Replace with\")",
+                    "target": "setName(\"Replace with\")"
+                },
+                {
+                    "source": "setDesc(\"When cutting, what to leave in the original note in place of the extracted section.\")",
+                    "target": "setDesc(\"When cutting, what to leave in the original note in place of the extracted section.\")"
+                },
+                {
+                    "source": "setName(\"New note location\")",
+                    "target": "setName(\"New note location\")"
+                },
+                {
+                    "source": "setDesc(\"Where to save extracted notes.\")",
+                    "target": "setDesc(\"Where to save extracted notes.\")"
+                },
+                {
+                    "source": "setName(\"Enable commands\")",
+                    "target": "setName(\"Enable commands\")"
+                },
+                {
+                    "source": "setDesc(\"Adds Fold/Unfold All commands to the command palette.\")",
+                    "target": "setDesc(\"Adds Fold/Unfold All commands to the command palette.\")"
+                },
+                {
+                    "source": "setName(\"Apply heading numbers\")",
+                    "target": "setName(\"Apply heading numbers\")"
+                },
+                {
+                    "source": "setDesc(\"Write computed numbers into headings right now. Appears in TOC and exports.\")",
+                    "target": "setDesc(\"Write computed numbers into headings right now. Appears in TOC and exports.\")"
+                },
+                {
+                    "source": "setButtonText(\"Write Numbers to File\")",
+                    "target": "setButtonText(\"Write Numbers to File\")"
+                },
+                {
+                    "source": "setName(\"Remove heading numbers\")",
+                    "target": "setName(\"Remove heading numbers\")"
+                },
+                {
+                    "source": "setDesc(\"Strip all numbers from headings and pause auto-numbering for this note.\")",
+                    "target": "setDesc(\"Strip all numbers from headings and pause auto-numbering for this note.\")"
+                },
+                {
+                    "source": "setButtonText(\"Remove & Stop\")",
+                    "target": "setButtonText(\"Remove & Stop\")"
+                },
+                {
+                    "source": "setName(\"Insert / Remove Table of Contents\")",
+                    "target": "setName(\"Insert / Remove Table of Contents\")"
+                },
+                {
+                    "source": "setDesc(\"Toggle a ```toc block at the top of the current note.\")",
+                    "target": "setDesc(\"Toggle a ```toc block at the top of the current note.\")"
+                },
+                {
+                    "source": "setButtonText(\"Toggle TOC\")",
+                    "target": "setButtonText(\"Toggle TOC\")"
+                },
+                {
+                    "source": "setName(\"Detect existing numbers\")",
+                    "target": "setName(\"Detect existing numbers\")"
+                },
+                {
+                    "source": "setDesc('Replace manually-typed numbers like \"1. Intro\" with computed values.')",
+                    "target": "setDesc('Replace manually-typed numbers like \"1. Intro\" with computed values.')"
+                },
+                {
+                    "source": "setName(\"Skip marker\")",
+                    "target": "setName(\"Skip marker\")"
+                },
+                {
+                    "source": "setName(\"Show document stats in status bar\")",
+                    "target": "setName(\"Show document stats in status bar\")"
+                },
+                {
+                    "source": "setDesc(\"Display heading count, word count, and reading time at the bottom of the window. Click to see a full document outline.\")",
+                    "target": "setDesc(\"Display heading count, word count, and reading time at the bottom of the window. Click to see a full document outline.\")"
+                },
+                {
+                    "source": "setName(\"Manage hotkeys\")",
+                    "target": "setName(\"Manage hotkeys\")"
+                },
+                {
+                    "source": "setDesc(\"Opens Obsidian's hotkey settings pre-filtered to Auto Heading commands.\")",
+                    "target": "setDesc(\"Opens Obsidian's hotkey settings pre-filtered to Auto Heading commands.\")"
+                },
+                {
+                    "source": "setButtonText(\"Open Hotkeys\")",
+                    "target": "setButtonText(\"Open Hotkeys\")"
+                },
+                {
+                    "source": "Notice(\"Already in list.\")",
+                    "target": "Notice(\"Already in list.\")"
+                },
+                {
+                    "source": "Notice(\"Open a note first.\")",
+                    "target": "Notice(\"Open a note first.\")"
+                },
+                {
+                    "source": "Notice(\"No headings found.\")",
+                    "target": "Notice(\"No headings found.\")"
+                },
+                {
+                    "source": "Notice(`Auto Heading: ${o.message}`)",
+                    "target": "Notice(`Auto Heading: ${o.message}`)"
+                },
+                {
+                    "source": "Notice(`Auto Heading: ${o.message}\nAuto-numbering disabled for this note.`)",
+                    "target": "Notice(`Auto Heading: ${o.message}\nAuto-numbering disabled for this note.`)"
+                },
+                {
+                    "source": "Notice(\"Auto Heading: TOC block removed.\")",
+                    "target": "Notice(\"Auto Heading: TOC block removed.\")"
+                },
+                {
+                    "source": "Notice(\"Auto Heading: TOC block inserted.\")",
+                    "target": "Notice(\"Auto Heading: TOC block inserted.\")"
+                },
+                {
+                    "source": "setName(\"Skip H1\")",
+                    "target": "setName(\"Skip H1\")"
+                },
+                {
+                    "source": "setName(\"Level range\")",
+                    "target": "setName(\"Level range\")"
+                },
+                {
+                    "source": "setName(\"Start at\")",
+                    "target": "setName(\"Start at\")"
+                },
+                {
+                    "source": "setName(\"Visual indentation\")",
+                    "target": "setName(\"Visual indentation\")"
+                },
+                {
+                    "source": "setDesc(\"Indent heading lines by level\")",
+                    "target": "setDesc(\"Indent heading lines by level\")"
+                },
+                {
+                    "source": "Notice(\"Auto Heading: Enabled for this note\")",
+                    "target": "Notice(\"Auto Heading: Enabled for this note\")"
+                },
+                {
+                    "source": "Notice(\"Auto Heading: Disabled for this note\")",
+                    "target": "Notice(\"Auto Heading: Disabled for this note\")"
+                },
+                {
+                    "source": "Notice(`Auto Heading: ${s.message}`)",
+                    "target": "Notice(`Auto Heading: ${s.message}`)"
+                },
+                {
+                    "source": "Notice(`Auto Heading: ${o.message}\nNumbering disabled for this note. Use \"Enable numbering\" to re-enable.`)",
+                    "target": "Notice(`Auto Heading: ${o.message}\nNumbering disabled for this note. Use \"Enable numbering\" to re-enable.`)"
+                },
+                {
+                    "source": "Notice(\"Auto Heading: Heading will be numbered\")",
+                    "target": "Notice(\"Auto Heading: Heading will be numbered\")"
+                },
+                {
+                    "source": "Notice(\"Auto Heading: Heading will be skipped\")",
+                    "target": "Notice(\"Auto Heading: Heading will be skipped\")"
+                },
+                {
+                    "source": "Notice(\"Auto Heading: Settings saved to front matter\")",
+                    "target": "Notice(\"Auto Heading: Settings saved to front matter\")"
+                },
+                {
+                    "source": "Notice(`Auto Heading: Copied ${r.totalCount} headings`)",
+                    "target": "Notice(`Auto Heading: Copied ${r.totalCount} headings`)"
+                },
+                {
+                    "source": "Notice(\"Auto Heading: Headings renumbered for this note\")",
+                    "target": "Notice(\"Auto Heading: Headings renumbered for this note\")"
+                },
+                {
+                    "source": "Notice(`Copied: ${g}`)",
+                    "target": "Notice(`Copied: ${g}`)"
+                },
+                {
+                    "source": "Notice(\"Auto Heading: All headings folded\")",
+                    "target": "Notice(\"Auto Heading: All headings folded\")"
+                },
+                {
+                    "source": "Notice(\"Auto Heading: All headings unfolded\")",
+                    "target": "Notice(\"Auto Heading: All headings unfolded\")"
+                },
+                {
+                    "source": "setTitle(\"Renumber headings in this note\")",
+                    "target": "setTitle(\"Renumber headings in this note\")"
+                },
+                {
+                    "source": "setTitle(\"Copy link to this section\")",
+                    "target": "setTitle(\"Copy link to this section\")"
+                },
+                {
+                    "source": "Notice(`Copied: [[${w}#${f}]]`)",
+                    "target": "Notice(`Copied: [[${w}#${f}]]`)"
+                },
+                {
+                    "source": "Notice(\"Auto Heading: TOC removed.\")",
+                    "target": "Notice(\"Auto Heading: TOC removed.\")"
+                },
+                {
+                    "source": "Notice(\"Auto Heading: TOC inserted.\")",
+                    "target": "Notice(\"Auto Heading: TOC inserted.\")"
+                },
+                {
+                    "source": "text:\"Enable one or more. A note is numbered if ANY enabled condition matches.\"",
+                    "target": "text:\"Enable one or more. A note is numbered if ANY enabled condition matches.\""
+                },
+                {
+                    "source": "text:\"A navigation bar at the top of the editor showing the current heading hierarchy.\"",
+                    "target": "text:\"A navigation bar at the top of the editor showing the current heading hierarchy.\""
+                },
+                {
+                    "source": "text:\"Action buttons that appear when cursor is on a heading line.\"",
+                    "target": "text:\"Action buttons that appear when cursor is on a heading line.\""
+                },
+                {
+                    "source": "text:\"Extract a heading and its content to a separate note.\"",
+                    "target": "text:\"Extract a heading and its content to a separate note.\""
+                },
+                {
+                    "source": "text:\"These buttons apply to the currently open note only. Use Ctrl+Z to undo.\"",
+                    "target": "text:\"These buttons apply to the currently open note only. Use Ctrl+Z to undo.\""
+                },
+                {
+                    "source": "text:\"Access these via Ctrl+P (Command Palette) or assign hotkeys above.\"",
+                    "target": "text:\"Access these via Ctrl+P (Command Palette) or assign hotkeys above.\""
+                },
+                {
+                    "source": "text:\"Override global settings for individual notes using front matter or comments.\"",
+                    "target": "text:\"Override global settings for individual notes using front matter or comments.\""
+                },
+                {
+                    "source": "text:\"No folders or notes selected yet.\"",
+                    "target": "text:\"No folders or notes selected yet.\""
+                },
+                {
+                    "source": "text:`${p} ${o[l]}`",
+                    "target": "text:`${p} ${o[l]}`"
+                },
+                {
+                    "source": "text:\"+ Add Folder\"",
+                    "target": "text:\"+ Add Folder\""
+                },
+                {
+                    "source": "text:\"+ Add Note\"",
+                    "target": "text:\"+ Add Note\""
+                },
+                {
+                    "source": "text:\"Clear All\"",
+                    "target": "text:\"Clear All\""
+                },
+                {
+                    "source": "text:\"Adjust numbering settings for all documents. Per-note overrides via front matter take priority.\"",
+                    "target": "text:\"Adjust numbering settings for all documents. Per-note overrides via front matter take priority.\""
+                },
+                {
+                    "source": "text:\"Style per level\"",
+                    "target": "text:\"Style per level\""
+                },
+                {
+                    "source": "name:\"Toggle heading numbers (current note)\"",
+                    "target": "name:\"Toggle heading numbers (current note)\""
+                },
+                {
+                    "source": "name:\"Enable numbering for this note\"",
+                    "target": "name:\"Enable numbering for this note\""
+                },
+                {
+                    "source": "name:\"Disable numbering for this note\"",
+                    "target": "name:\"Disable numbering for this note\""
+                },
+                {
+                    "source": "name:\"Quick configure numbering\"",
+                    "target": "name:\"Quick configure numbering\""
+                },
+                {
+                    "source": "name:\"Burn in heading numbers (current note)\"",
+                    "target": "name:\"Burn in heading numbers (current note)\""
+                },
+                {
+                    "source": "name:\"Remove burned-in heading numbers (current note)\"",
+                    "target": "name:\"Remove burned-in heading numbers (current note)\""
+                },
+                {
+                    "source": "name:\"Toggle skip for heading at cursor\"",
+                    "target": "name:\"Toggle skip for heading at cursor\""
+                },
+                {
+                    "source": "name:\"Save settings to front matter (current note)\"",
+                    "target": "name:\"Save settings to front matter (current note)\""
+                },
+                {
+                    "source": "name:\"Copy headings as numbered outline\"",
+                    "target": "name:\"Copy headings as numbered outline\""
+                },
+                {
+                    "source": "name:\"Force renumber all headings (current note)\"",
+                    "target": "name:\"Force renumber all headings (current note)\""
+                },
+                {
+                    "source": "name:\"Navigate: next heading\"",
+                    "target": "name:\"Navigate: next heading\""
+                },
+                {
+                    "source": "name:\"Navigate: previous heading\"",
+                    "target": "name:\"Navigate: previous heading\""
+                },
+                {
+                    "source": "text:`${\"  \".repeat(l.level-1)}${l.isSkipped?\"\":l.formattedNumber+o.separator+\" \"}${l.cleanTitle}`",
+                    "target": "text:`${\"  \".repeat(l.level-1)}${l.isSkipped?\"\":l.formattedNumber+o.separator+\" \"}${l.cleanTitle}`"
+                },
+                {
+                    "source": "name:\"Copy link to current section\"",
+                    "target": "name:\"Copy link to current section\""
+                },
+                {
+                    "source": "name:\"Fold all headings\"",
+                    "target": "name:\"Fold all headings\""
+                },
+                {
+                    "source": "name:\"Unfold all headings\"",
+                    "target": "name:\"Unfold all headings\""
+                },
+                {
+                    "source": "name:\"Extract current section to new note\"",
+                    "target": "name:\"Extract current section to new note\""
+                },
+                {
+                    "source": "name:\"Format heading: Title Case\"",
+                    "target": "name:\"Format heading: Title Case\""
+                },
+                {
+                    "source": "name:\"Format heading: Sentence case\"",
+                    "target": "name:\"Format heading: Sentence case\""
+                },
+                {
+                    "source": "name:\"Toggle Outline panel\"",
+                    "target": "name:\"Toggle Outline panel\""
+                },
+                {
+                    "source": "name:\"Insert / Remove TOC block\"",
+                    "target": "name:\"Insert / Remove TOC block\""
+                },
+                {
+                    "source": "text:`${S}w ${C}min`",
+                    "target": "text:`${S}w ${C}min`"
+                },
+                {
+                    "source": "text:\"No headings found.\"",
+                    "target": "text:\"No headings found.\""
+                },
+                {
+                    "source": "text:\"No headings in selected range.\"",
+                    "target": "text:\"No headings in selected range.\""
+                },
+                {
+                    "source": "text:\" / \"",
+                    "target": "text:\" / \""
+                },
+                {
+                    "source": "name:\"Fold all sections (view action)\"",
+                    "target": "name:\"Fold all sections (view action)\""
+                },
+                {
+                    "source": "name:\"Unfold all sections (view action)\"",
+                    "target": "name:\"Unfold all sections (view action)\""
+                }
+            ]
+        }
+    }
+}
