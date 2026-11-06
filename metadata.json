@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "id": "eT1JlLRLgtc4DqLr4xXgcfOIXN3NWw4Q",
+        "plugin": "auto-heading",
+        "language": "zh-cn",
+        "version": "1.5.11",
+        "supported_versions": "1.5.11",
+        "title": "Auto Heading",
+        "description": "Auto Heading Localization & Tweaks",
+        "hash": "5f53cfd75f53cfd75f53cfd75f53cfd7",
+        "created_at": "2026-11-06T03:19:54.712Z",
+        "updated_at": "2026-11-06T03:19:54.712Z",
+        "type": "plugin"
+    }
+]
